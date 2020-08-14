@@ -1,0 +1,5 @@
+database 
+user: Sparky
+pass: gydjpPRxoMBTdvhH
+
+mongodb+srv://Sparky:ZMzzP7mXmWsY0gGS@cluster0.jhbuy.mongodb.net/cafe
