@@ -10,3 +10,18 @@ function parseJwt (token) {
     var base64 = base64Url.replace('-', '+').replace('_', '/');
     return JSON.parse(window.atob(base64));
 };
+
+
+186968622872-paqba0agtifs2aob92u585dqpp828hv1.apps.googleusercontent.com
+OjGwVu2vjKk_5xKkcDefj3Aa
+
+
+<a href="#" onclick="signOut();">Sign out</a>
+<script>
+  function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
+  }
+</script>
